@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoramento Amazônico | Guia de Pesca Amazônica</title>
+  <meta name="description" content="Plataforma de monitoramento ambiental da Amazônia com mapa ao vivo, clima, chuva, vento, rios e situação regional.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site-shell">
+  <a class="floating-whatsapp" href="https://wa.me/5592999999999" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.56 0 .25 5.3.25 11.83c0 2.08.54 4.12 1.57 5.92L0 24l6.42-1.69a11.77 11.77 0 0 0 5.64 1.44h.01c6.5 0 11.81-5.3 11.82-11.83a11.75 11.75 0 0 0-3.37-8.44ZM12.07 21.76h-.01a9.82 9.82 0 0 1-5-1.37l-.36-.21-3.81 1 1.02-3.71-.23-.38a9.82 9.82 0 0 1-1.51-5.25c0-5.43 4.43-9.85 9.89-9.85 2.64 0 5.12 1.03 6.98 2.9a9.76 9.76 0 0 1 2.89 6.96c0 5.43-4.43 9.85-9.86 9.85Zm5.4-7.37c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.29-.78.98-.95 1.18-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48a8.98 8.98 0 0 1-1.66-2.07c-.17-.3-.02-.46.13-.6.13-.12.3-.32.45-.49.15-.17.2-.29.3-.49.1-.2.05-.37-.02-.52-.08-.15-.68-1.64-.93-2.25-.25-.6-.5-.52-.68-.53h-.58c-.2 0-.52.08-.8.37-.28.3-1.05 1.03-1.05 2.5 0 1.47 1.08 2.89 1.23 3.09.15.2 2.11 3.23 5.12 4.53.71.31 1.27.49 1.7.63.72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.44.25-.71.25-1.32.18-1.44-.08-.12-.28-.2-.58-.35Z"/></svg>
+  </a>
+
+  <header class="header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img src="assets/imagens/logo-peixe.svg" alt="Logo Guia de Pesca Amazônica">
+        <span class="brand-copy">
+          <span class="brand-kicker">Guia de Pesca</span>
+          <span class="brand-title">Amazônica</span>
+          <span class="brand-subtitle">Viva essa experiência</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+
+      <div class="nav-wrap" data-nav-wrap>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="index.html" data-nav-link>Início</a></li>
+            <li><a href="sobre.html" data-nav-link>Sobre</a></li>
+            <li><a href="equipamentos.html" data-nav-link>Equipamentos</a></li>
+            <li><a href="peixes.html" data-nav-link>Peixes</a></li>
+            <li><a href="periodos.html" data-nav-link>Períodos</a></li>
+            <li><a href="contato.html" data-nav-link>Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-social">
+          <a class="header-social-link" href="https://wa.me/5592999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.56 0 .25 5.3.25 11.83c0 2.08.54 4.12 1.57 5.92L0 24l6.42-1.69a11.77 11.77 0 0 0 5.64 1.44h.01c6.5 0 11.81-5.3 11.82-11.83a11.75 11.75 0 0 0-3.37-8.44Z"/></svg>
+          </a>
+          <a class="header-social-link" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 1.8A3.95 3.95 0 0 0 3.8 7.75v8.5a3.95 3.95 0 0 0 3.95 3.95h8.5a3.95 3.95 0 0 0 3.95-3.95v-8.5a3.95 3.95 0 0 0-3.95-3.95Zm8.95 1.35a1.08 1.08 0 1 1 0 2.16 1.08 1.08 0 0 1 0-2.16ZM12 6.86A5.14 5.14 0 1 1 6.86 12 5.14 5.14 0 0 1 12 6.86Zm0 1.8A3.34 3.34 0 1 0 15.34 12 3.34 3.34 0 0 0 12 8.66Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero hero-home-single">
+      <div class="page-hero-media" style="background-image: url('https://commons.wikimedia.org/wiki/Special:FilePath/Amazon%20rainforest%20boat%20-%20panoramio.jpg?width=1600');"></div>
+      <div class="page-hero-overlay"></div>
+      <div class="container page-hero-body">
+        <div class="page-hero-copy wide">
+          <span class="eyebrow">Monitoramento Amazônico</span>
+          <h1>Centro de controle <span>ambiental</span> da Amazônia</h1>
+          <p>Mapa ao vivo com camadas climáticas, hidrológicas e status regionais para acompanhar chuva, temperatura, vento, nuvens, cheia, seca e condições de pesca.</p>
+          <div class="hero-stats">
+            <div class="hero-stat"><strong>24h</strong><span>Atualização automática</span></div>
+            <div class="hero-stat"><strong>8</strong><span>Regiões monitoradas</span></div>
+            <div class="hero-stat"><strong>4</strong><span>Camadas climáticas</span></div>
+            <div class="hero-stat"><strong>3</strong><span>Níveis de alerta</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container service-grid">
+        <article class="service-card reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12c4-4 8-6 12-6 3 0 5 1 6 3-2 2-4 3-6 3 2 0 4 1 6 3-1 2-3 3-6 3-4 0-8-2-12-6z"/><circle cx="15.5" cy="10.5" r="1"/></svg></span>
+          <h3>Pesca esportiva</h3>
+          <p>Conteúdo voltado à experiência de pesca, à leitura do ambiente amazônico e ao respeito aos ciclos naturais.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18h18"/><path d="M5 18V9l7-4 7 4v9"/></svg></span>
+          <h3>Regiões de pesca</h3>
+          <p>Manaus, Rio Negro, Tapajós e Madeira apresentados em um fluxo simples, visual e fácil de explorar.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg></span>
+          <h3>Períodos e mapa</h3>
+          <p>Mapa integrado ao carrossel de regiões para localizar cada ponto com mais contexto dentro da Amazônia.</p>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+          <h3>Contato rápido</h3>
+          <p>WhatsApp e Instagram posicionados em pontos estratégicos para facilitar o contato e o acompanhamento do projeto.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="line"></div>
+          <h2>Regiões de destaque</h2>
+          <p>Use o carrossel para alternar entre os principais pontos e atualizar o mapa automaticamente.</p>
+        </div>
+
+        <div class="region-carousel reveal" data-region-carousel>
+          <button class="carousel-control prev" type="button" data-region-prev aria-label="Região anterior">&#8249;</button>
+          <div class="region-track">
+            <button class="region-card is-active" type="button" data-region-slide data-map-title="Manaus - AM" data-map-caption="Ponto de partida para múltiplos roteiros na Amazônia." data-map-lat="-3.119" data-map-lng="-60.021">
+              <span class="region-kicker">Capital amazônica</span>
+              <strong>Manaus</strong>
+              <p>Centro logístico, cultural e turístico para roteiros de pesca na região.</p>
+            </button>
+            <button class="region-card" type="button" data-region-slide data-map-title="Rio Negro" data-map-caption="Águas escuras, paisagens amplas e tradição em pescarias esportivas." data-map-lat="-2.8" data-map-lng="-61.1">
+              <span class="region-kicker">Águas escuras</span>
+              <strong>Rio Negro</strong>
+              <p>Um dos cenários mais emblemáticos para a pesca esportiva na Amazônia.</p>
+            </button>
+            <button class="region-card" type="button" data-region-slide data-map-title="Rio Tapajós" data-map-caption="Região de visual cristalino e forte presença de turismo de natureza." data-map-lat="-4.55" data-map-lng="-55.72">
+              <span class="region-kicker">Pará</span>
+              <strong>Tapajós</strong>
+              <p>Águas claras, praias fluviais e forte presença de turismo de natureza.</p>
+            </button>
+            <button class="region-card" type="button" data-region-slide data-map-title="Rio Madeira" data-map-caption="Rio de grande força, presença de espécies de couro e paisagem robusta." data-map-lat="-5.33" data-map-lng="-60.2">
+              <span class="region-kicker">Correnteza forte</span>
+              <strong>Madeira</strong>
+              <p>Eixo fluvial de grande força e biodiversidade na Amazônia brasileira.</p>
+            </button>
+          </div>
+          <button class="carousel-control next" type="button" data-region-next aria-label="Próxima região">&#8250;</button>
+        </div>
+
+        <div class="carousel-dots reveal">
+          <button class="carousel-dot is-active" type="button" data-region-dot="0" aria-label="Manaus"></button>
+          <button class="carousel-dot" type="button" data-region-dot="1" aria-label="Rio Negro"></button>
+          <button class="carousel-dot" type="button" data-region-dot="2" aria-label="Tapajós"></button>
+          <button class="carousel-dot" type="button" data-region-dot="3" aria-label="Madeira"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section map-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="line"></div>
+          <h2>Mapa ao vivo da Amazônia</h2>
+          <p id="map-caption">Camadas reais de monitoramento climático e estrutura hidrológica preparada para ANA Hidroweb e CPRM.</p>
+        </div>
+
+        <div class="google-map-shell live-map-shell reveal" data-live-map-shell>
+          <div class="map-header live-map-header">
+            <div>
+              <span class="map-label">Leaflet + OpenStreetMap + OpenWeather</span>
+              <h3 id="map-title">Monitoramento Amazônico</h3>
+              <p class="map-status-line" data-map-updated>Carregando dados ambientais...</p>
+            </div>
+            <div class="map-health">
+              <span class="map-health-dot"></span>
+              <span>Centro online</span>
+            </div>
+          </div>
+          <div class="live-map-wrap">
+            <div id="live-map" class="google-map live-map" role="region" aria-label="Mapa ao vivo de monitoramento ambiental da Amazônia"></div>
+            <div class="map-control-panel" data-map-controls>
+              <span class="panel-label">Mapas</span>
+              <button class="map-mode is-active" type="button" data-base-map="default">Padrão</button>
+              <button class="map-mode" type="button" data-base-map="satellite">Satélite</button>
+              <button class="map-mode" type="button" data-base-map="radar">Radar de chuva</button>
+              <button class="map-mode" type="button" data-base-map="climate">Climático</button>
+              <button class="map-mode" type="button" data-base-map="hydro">Hidrológico</button>
+            </div>
+            <div class="map-layer-panel" data-weather-controls>
+              <span class="panel-label">Camadas ao vivo</span>
+              <button class="layer-chip" type="button" data-weather-layer="precipitation">Chuva</button>
+              <button class="layer-chip" type="button" data-weather-layer="temp">Temperatura</button>
+              <button class="layer-chip" type="button" data-weather-layer="clouds">Nuvens</button>
+              <button class="layer-chip" type="button" data-weather-layer="wind">Vento</button>
+              <button class="layer-chip" type="button" data-river-layer="levels">Rios</button>
+              <button class="layer-chip" type="button" data-river-layer="drought">Seca</button>
+              <button class="layer-chip" type="button" data-river-layer="flood">Cheia</button>
+            </div>
+            <div class="map-legend">
+              <strong>Legenda</strong>
+              <span><i class="legend-dot normal"></i>Normal</span>
+              <span><i class="legend-dot attention"></i>Atenção</span>
+              <span><i class="legend-dot critical"></i>Crítico</span>
+              <span><i class="legend-icon drought"></i>Seca</span>
+              <span><i class="legend-icon flood"></i>Cheia</span>
+              <span><i class="legend-icon rain"></i>Chuva forte</span>
+              <span><i class="legend-icon fish"></i>Pesca favorável</span>
+            </div>
+          </div>
+          <div class="region-status-grid" data-region-status></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="line"></div>
+          <h2>Conteúdo do guia</h2>
+          <p>Páginas conectadas, leitura fluida e foco em informações úteis sobre a pesca na Amazônia.</p>
+        </div>
+        <div class="shortcut-grid">
+          <article class="summary-card reveal">
+            <h3>Sobre</h3>
+            <p>Apresenta o projeto de ADS da Fametro, seus objetivos, proposta acadêmica e impacto esperado.</p>
+            <a class="link-arrow" href="sobre.html">Abrir página</a>
+          </article>
+          <article class="summary-card reveal">
+            <h3>Períodos</h3>
+            <p>Tabela mensal com status visual e orientação sobre os ciclos de reprodução das espécies.</p>
+            <a class="link-arrow" href="periodos.html">Abrir página</a>
+          </article>
+          <article class="summary-card reveal">
+            <h3>Equipamentos</h3>
+            <p>Itens de pesca e materiais essenciais organizados para diferentes cenários.</p>
+            <a class="link-arrow" href="equipamentos.html">Abrir página</a>
+          </article>
+          <article class="summary-card reveal">
+            <h3>Peixes</h3>
+            <p>Espécies com nomes, imagens reais e descrições breves para consulta rápida.</p>
+            <a class="link-arrow" href="peixes.html">Abrir página</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section social-section">
+      <div class="container">
+        <div class="social-banner reveal">
+          <div>
+            <span class="eyebrow eyebrow-light">Siga nosso projeto</span>
+            <h2>WhatsApp e Instagram sempre acessíveis</h2>
+            <p>Acompanhe o projeto, envie dúvidas e mantenha contato pelos canais sociais oficiais.</p>
+          </div>
+          <div class="social-banner-links">
+            <a class="social-large-link" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Zm0 1.8A3.95 3.95 0 0 0 3.8 7.75v8.5a3.95 3.95 0 0 0 3.95 3.95h8.5a3.95 3.95 0 0 0 3.95-3.95v-8.5a3.95 3.95 0 0 0-3.95-3.95Zm8.95 1.35a1.08 1.08 0 1 1 0 2.16 1.08 1.08 0 0 1 0-2.16ZM12 6.86A5.14 5.14 0 1 1 6.86 12 5.14 5.14 0 0 1 12 6.86Zm0 1.8A3.34 3.34 0 1 0 15.34 12 3.34 3.34 0 0 0 12 8.66Z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a class="social-large-link" href="https://wa.me/5592999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.56 0 .25 5.3.25 11.83c0 2.08.54 4.12 1.57 5.92L0 24l6.42-1.69a11.77 11.77 0 0 0 5.64 1.44h.01c6.5 0 11.81-5.3 11.82-11.83a11.75 11.75 0 0 0-3.37-8.44Z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/imagens/logo-peixe.svg" alt="Logo Guia de Pesca Amazônica">
+          <span class="brand-copy">
+            <span class="brand-kicker">Guia de Pesca</span>
+            <span class="brand-title">Amazônica</span>
+          </span>
+        </a>
+        <p>Projeto informativo sobre turismo, natureza e pesca esportiva na Amazônia.</p>
+        <div class="footer-social">
+          <a class="icon-link" href="https://wa.me/5592999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.07 0C5.56 0 .25 5.3.25 11.83c0 2.08.54 4.12 1.57 5.92L0 24l6.42-1.69a11.77 11.77 0 0 0 5.64 1.44h.01c6.5 0 11.81-5.3 11.82-11.83a11.75 11.75 0 0 0-3.37-8.44Z"/></svg>
+          </a>
+          <a class="icon-link" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3>Links rápidos</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="equipamentos.html">Equipamentos</a></li>
+          <li><a href="peixes.html">Peixes</a></li>
+          <li><a href="periodos.html">Períodos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Regiões</h3>
+        <ul>
+          <li>Manaus</li>
+          <li>Rio Negro</li>
+          <li>Tapajós</li>
+          <li>Madeira</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li>Manaus - AM</li>
+          <li><a href="https://wa.me/5592999999999" target="_blank" rel="noopener">(92) 99999-9999</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">@guiadepescaamazonica</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Guia de Pesca Amazônica. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
